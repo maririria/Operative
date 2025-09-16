@@ -71,6 +71,8 @@ export default function JobCardForm() {
     Printing: false,
   });
 
+
+  
   const [subJobs, setSubJobs] = useState([]);
   const [selectedMachines, setSelectedMachines] = useState([]);
   const [showPrintingModal, setShowPrintingModal] = useState(false);
