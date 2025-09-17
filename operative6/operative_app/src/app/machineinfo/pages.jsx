@@ -73,7 +73,7 @@ export default function MachineInfo() {
     }));
   };
 
-  
+
   // ✅ Add / Update machine
   const handleSubmit = async (e) => {
     e.preventDefault();
