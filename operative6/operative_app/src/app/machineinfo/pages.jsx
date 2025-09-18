@@ -13,6 +13,7 @@ export default function MachineInfo() {
     description: "",
     availableDays: "",
   });
+
   const [editingMachine, setEditingMachine] = useState(null);
   const [userRole, setUserRole] = useState(null);
   const router = useRouter();
@@ -71,6 +72,8 @@ export default function MachineInfo() {
       [name]: value,
     }));
   };
+  
+
 
   // ✅ Add / Update machine
   const handleSubmit = async (e) => {
