@@ -72,6 +72,7 @@ export default function MachineInfo() {
       [name]: value,
     }));
   };
+  
 
 
   // ✅ Add / Update machine
