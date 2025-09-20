@@ -4,6 +4,8 @@ import { supabase } from "@/lib/supabase-browser";
 import { useRouter } from "next/navigation";
 import PageLayout from '@/components/PageLayout';
 import AdminLayout from '@/components/AdminLayout';
+import { supabase } from '@/lib/supabaseClient'
+
 
 export default function AdminDashboard() {
   const [workers, setWorkers] = useState([]);

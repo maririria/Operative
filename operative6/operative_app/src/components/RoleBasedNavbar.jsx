@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import { supabase } from "@/lib/supabase-browser";
+import { supabase } from '@/lib/supabaseClient'
+
 
 export default function RoleBasedNavbar() {
   const [roles, setRoles] = useState([]);
